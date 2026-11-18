@@ -12,3 +12,8 @@ jobs:
         run: echo "Hello World"
       - name: step2
         run: echo "step2"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: second job
+        run: echo "helloworld2"
