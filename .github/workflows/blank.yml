@@ -1,8 +1,12 @@
 name: workflow
-on: workflow_dispatch
+
+on:
+  workflow_dispatch:
+
 jobs:
   build:
-     runs-on: ubuntu-latest
- steps:
-   - name: run the steps
-     runs: echo "Hello world"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run the step
+        run: echo "Hello World"
