@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: Run the step
         run: echo "Hello World"
+      - name: step2
+        run: echo "step2"
