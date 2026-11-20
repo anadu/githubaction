@@ -1,8 +1,12 @@
-name: variables and screts
-on: push
+name: Variables and Secrets
+
+on:
+  push:
+
 jobs:
   variable:
-     runs-on: ubuntu-latest
-  steps:
-     - name: enter the name
-       run: echo "please type the vars sysntax"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Enter the name
+        run: echo "Please type the variable syntax"
