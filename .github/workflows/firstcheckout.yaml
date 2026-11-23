@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: Check out the code
         uses: actions/checkout@v4
+      - name: print the name
+        run: cat index.html
