@@ -9,4 +9,6 @@ jobs:
 
     steps:
       - name: Enter the name
-        run: echo "Please type the variable syntax ${{ vars.name }}}"
+        run: echo "Please type the variable syntax ${{ vars.name }}"
+      - name: enter the screts
+        run: echo "please type the secrets ${{ secrets.TEST}}"
