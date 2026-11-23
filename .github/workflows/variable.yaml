@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Enter the name
-        run: echo "Please type the variable syntax"
+        run: echo "Please type the variable syntax ${{ vars.name }}}"
