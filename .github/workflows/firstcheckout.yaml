@@ -3,7 +3,7 @@ name: Checkout
 on:
   push:
 env:
-  app_version = "dev"
+  app_version: "dev"
   
   
 
