@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Check out the code
         uses: actions/checkout@v4
+        env:
+          app_version: "prod"
       - name: print the name
         run: echo "the version is $app_version"
         
